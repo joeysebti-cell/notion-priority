@@ -1,6 +1,6 @@
 reply_id,account_id,label,reason,confidence
 RPL-0001,ACC-11013,not_now,"Says free plan works for now, not this quarter.",0.95
-RPL-0002,ACC-11070,not_interested,"Says not interested, thanks.",1.0
+RPL-0002,ACC-11070,not_interested,Politely declines the offer.,1.0
 RPL-0003,ACC-10119,not_now,"Says free plan works for now, not this quarter.",0.95
 RPL-0004,ACC-10573,wrong_contact,"Wrong person, procurement decides.",1.0
 RPL-0005,ACC-10593,wrong_contact,"Wrong person, procurement decides.",1.0
@@ -8,7 +8,7 @@ RPL-0006,ACC-10538,not_now,"Out of office, will reply when back.",0.9
 RPL-0007,ACC-10657,not_interested,"Consolidating on Microsoft Loop, no follow-up.",0.95
 RPL-0008,ACC-10291,not_interested,Asks to remove from list.,0.95
 RPL-0009,ACC-11108,not_now,"Might look later, not a priority now.",0.9
-RPL-0010,ACC-11074,not_interested,"Says not interested, thanks.",1.0
+RPL-0010,ACC-11074,not_interested,Politely declines the offer.,1.0
 RPL-0011,ACC-10736,evaluating,Asks whether Notion syncs with Jira and Slack.,0.95
 RPL-0012,ACC-10954,wrong_contact,Says IT lead handles software purchases.,0.98
 RPL-0013,ACC-10150,not_now,Says not a priority right now.,0.95
@@ -100,7 +100,7 @@ RPL-0098,ACC-10492,not_now,"travelling, will reply soon",0.95
 RPL-0099,ACC-11145,wrong_contact,forwarding to head of engineering,0.97
 RPL-0100,ACC-10286,wrong_contact,"not the right person, IT lead decides",0.98
 RPL-0101,ACC-10513,evaluating,Asks about data residency setup for EU customers.,0.9
-RPL-0102,ACC-11119,not_interested,"Says 'Not interested, thanks.'",0.98
+RPL-0102,ACC-11119,not_interested,Politely declines the offer.,0.98
 RPL-0103,ACC-10325,not_now,Happy on free plan for the moment.,0.95
 RPL-0104,ACC-10047,not_now,Happy on free plan for the moment.,0.95
 RPL-0105,ACC-10817,not_interested,"Just signed with Confluence, all set.",0.95
@@ -112,7 +112,7 @@ RPL-0110,ACC-10659,not_now,"Not this quarter, free plan works for now.",0.95
 RPL-0111,ACC-10759,evaluating,Asks if Notion syncs with Jira and Slack.,0.85
 RPL-0112,ACC-10646,not_interested,"Won't pay, asks to stop emailing.",0.95
 RPL-0113,ACC-10842,not_now,"Mid-reorg, maybe in a few months.",0.95
-RPL-0114,ACC-10635,not_interested,"Says 'Not interested, thanks.'",0.98
+RPL-0114,ACC-10635,not_interested,Politely declines the offer.,0.98
 RPL-0115,ACC-10223,not_interested,Asks to be removed from the list.,0.95
 RPL-0116,ACC-10198,wrong_contact,Unmonitored mailbox; points to the front desk.,0.93
 RPL-0117,ACC-10110,evaluating,Asks about data residency setup for EU customers.,0.9
@@ -120,7 +120,7 @@ RPL-0118,ACC-11056,not_now,Could revisit after planning cycle.,0.95
 RPL-0119,ACC-11105,evaluating,Asks how Notion compares to Confluence.,0.9
 RPL-0120,ACC-10378,not_now,"On leave until the 2nd, will respond then.",0.95
 RPL-0121,ACC-10486,wrong_contact,"Wrong person, procurement decides.",0.95
-RPL-0122,ACC-10053,not_interested,"Says 'Not interested, thanks.'",0.98
+RPL-0122,ACC-10053,not_interested,Politely declines the offer.,0.98
 RPL-0123,ACC-10394,not_now,"Budgets frozen until next year, check back Q1.",0.95
 RPL-0124,ACC-10759,not_interested,"Consolidating on Microsoft Loop, no follow-up.",0.95
 RPL-0125,ACC-10287,wrong_contact,"Wrong person, procurement decides.",0.95
@@ -161,7 +161,7 @@ RPL-0159,ACC-10670,not_now,Not a priority right now.,0.97
 RPL-0160,ACC-10273,evaluating,Asks about Jira and Slack sync.,0.96
 RPL-0161,ACC-10689,wrong_contact,"Forwarding to head of engineering, who owns tooling decisions.",0.95
 RPL-0162,ACC-10340,not_now,Happy on free plan for now.,0.95
-RPL-0163,ACC-11099,not_interested,"Not interested, thanks.",0.95
+RPL-0163,ACC-11099,not_interested,Politely declines the offer.,0.95
 RPL-0164,ACC-10146,evaluating,Asking what makes Notion better for wikis.,0.95
 RPL-0165,ACC-10558,not_interested,Requests to unsubscribe.,0.95
 RPL-0166,ACC-10280,wrong_contact,"Intern, can't decide, suggests office manager.",0.95
@@ -202,12 +202,12 @@ RPL-0200,ACC-10204,not_now,Revisit after planning cycle.,0.97
 RPL-0201,ACC-10019,evaluating,Asks about SAML SSO and audit logs tiers.,0.97
 RPL-0202,ACC-10851,wrong_contact,Says to talk to ops manager.,0.98
 RPL-0203,ACC-10280,evaluating,Asks about EU data residency.,0.97
-RPL-0204,ACC-10298,not_interested,Says unsubscribe.,0.99
+RPL-0204,ACC-10298,not_interested,Requests removal from the mailing list.,0.99
 RPL-0205,ACC-10202,not_now,Budgets frozen until next year.,0.97
 RPL-0206,ACC-11154,evaluating,Asks about EU data residency.,0.97
 RPL-0207,ACC-10093,wrong_contact,Says to talk to ops manager.,0.98
 RPL-0208,ACC-10541,evaluating,Asks about importing Confluence spaces.,0.97
-RPL-0209,ACC-11156,not_interested,Says unsubscribe.,0.99
+RPL-0209,ACC-11156,not_interested,Requests removal from the mailing list.,0.99
 RPL-0210,ACC-10362,wrong_contact,Intern says to try office manager.,0.98
 RPL-0211,ACC-10695,wrong_contact,Says procurement decides; wrong person.,0.98
 RPL-0212,ACC-10169,not_now,Revisit after planning cycle.,0.97
@@ -223,14 +223,14 @@ RPL-0221,ACC-10928,not_interested,"Signed with Confluence, all set.",0.95
 RPL-0222,ACC-10763,not_now,"Travelling, will respond later.",0.9
 RPL-0223,ACC-11063,not_interested,Requests removal from list.,0.95
 RPL-0224,ACC-10495,ready_to_buy,Has a quote and asks for a volume discount on 100 seats.,0.85
-RPL-0225,ACC-11004,not_interested,"Says not interested, thanks.",0.95
+RPL-0225,ACC-11004,not_interested,Politely declines the offer.,0.95
 RPL-0226,ACC-10322,not_interested,"Declines to pay, asks to stop emailing.",0.95
 RPL-0227,ACC-10342,wrong_contact,"Mailbox not monitored, directs to front desk.",0.9
 RPL-0228,ACC-10694,not_now,"Budgets frozen, will check Q1.",0.9
 RPL-0229,ACC-10379,not_now,Free plan works for now.,0.9
-RPL-0230,ACC-10377,not_interested,"Says not interested, thanks.",0.95
+RPL-0230,ACC-10377,not_interested,Politely declines the offer.,0.95
 RPL-0231,ACC-11126,not_interested,"Consolidating on Microsoft Loop, no need.",0.95
-RPL-0232,ACC-10046,not_interested,"Says not interested, thanks.",0.95
+RPL-0232,ACC-10046,not_interested,Politely declines the offer.,0.95
 RPL-0233,ACC-10523,ready_to_buy,Finance lead needs a quote for 61 seats.,0.95
 RPL-0234,ACC-10324,not_now,Happy on free plan for now.,0.9
 RPL-0235,ACC-10871,not_interested,Asks to unsubscribe.,0.95
@@ -246,7 +246,7 @@ RPL-0244,ACC-11079,ready_to_buy,"Requests order form for 140 seats, start next m
 RPL-0245,ACC-11188,wrong_contact,"Mailbox not monitored, directs to front desk.",0.9
 RPL-0246,ACC-10111,not_now,"Mid-reorg, maybe later.",0.9
 RPL-0247,ACC-10191,ready_to_buy,Has a quote and asks for a volume discount on 29 seats.,0.85
-RPL-0248,ACC-10740,not_interested,"Says not interested, thanks.",0.95
+RPL-0248,ACC-10740,not_interested,Politely declines the offer.,0.95
 RPL-0249,ACC-10646,not_interested,"Consolidating on Microsoft Loop, no need.",0.95
 RPL-0250,ACC-10884,not_interested,"Consolidating on Microsoft Loop, no need.",0.95
 RPL-0251,ACC-10050,not_now,Happy on free plan for now.,0.98
@@ -306,10 +306,10 @@ RPL-0304,ACC-10752,evaluating,Asks student pricing after graduation.,0.9
 RPL-0305,ACC-11091,not_interested,Consolidating on Microsoft Loop; no follow-up.,0.95
 RPL-0306,ACC-10449,not_interested,Asks to unsubscribe.,0.95
 RPL-0307,ACC-10882,ready_to_buy,Ready to move team over; asks Enterprise cost/contract.,0.95
-RPL-0308,ACC-11182,not_interested,"Says not interested, thanks.",0.95
+RPL-0308,ACC-11182,not_interested,Politely declines the offer.,0.95
 RPL-0309,ACC-10959,not_now,"Travelling this week, will reply when back.",0.8
 RPL-0310,ACC-10041,evaluating,Asks Jira/Slack sync; would decide.,0.9
-RPL-0311,ACC-10779,not_interested,"Says not interested, thanks.",0.95
+RPL-0311,ACC-10779,not_interested,Politely declines the offer.,0.95
 RPL-0312,ACC-10444,not_now,"Mid-reorg, maybe in a few months.",0.95
 RPL-0313,ACC-10007,evaluating,Asking what makes Notion better for wikis.,0.95
 RPL-0314,ACC-11051,wrong_contact,"Mailbox not monitored, directs to front desk.",0.95
@@ -321,7 +321,7 @@ RPL-0319,ACC-10727,not_interested,Requests to unsubscribe.,0.95
 RPL-0320,ACC-10327,not_now,"Budgets frozen, will check back Q1.",0.95
 RPL-0321,ACC-10592,not_now,"Free plan works for now, not this quarter.",0.95
 RPL-0322,ACC-10223,not_now,Happy on free for the moment.,0.95
-RPL-0323,ACC-10155,not_interested,"Says not interested, thanks.",0.95
+RPL-0323,ACC-10155,not_interested,Politely declines the offer.,0.95
 RPL-0324,ACC-10852,not_now,"Mid-reorg, maybe in a few months.",0.95
 RPL-0325,ACC-11073,evaluating,Asking about SAML SSO and audit logs.,0.95
 RPL-0326,ACC-10755,evaluating,Asking about Jira and Slack sync.,0.95
@@ -338,7 +338,7 @@ RPL-0336,ACC-10321,not_now,"Not a priority right now, will look later.",0.95
 RPL-0337,ACC-10765,wrong_contact,"Intern, can't decide, directs to office manager.",0.95
 RPL-0338,ACC-10971,not_now,"Out of office, will reply later.",0.95
 RPL-0339,ACC-10434,evaluating,Asking about permissions across teamspaces for security.,0.95
-RPL-0340,ACC-11183,not_interested,"Says not interested, thanks.",0.95
+RPL-0340,ACC-11183,not_interested,Politely declines the offer.,0.95
 RPL-0341,ACC-10528,not_now,Says revisit after planning cycle.,0.95
 RPL-0342,ACC-10382,not_now,Says not a priority right now.,0.95
 RPL-0343,ACC-10003,evaluating,Asks about EU data residency setup.,0.95
@@ -351,7 +351,7 @@ RPL-0349,ACC-10888,evaluating,Asks about Confluence import page history.,0.95
 RPL-0350,ACC-11118,not_now,Says budgets frozen until next year.,0.95
 RPL-0351,ACC-10620,wrong_contact,Forwards to head of engineering.,0.95
 RPL-0352,ACC-10121,wrong_contact,"Says wrong person, procurement decides.",0.95
-RPL-0353,ACC-10345,not_interested,"Says not interested, thanks.",0.95
+RPL-0353,ACC-10345,not_interested,Politely declines the offer.,0.95
 RPL-0354,ACC-10951,evaluating,Asks about SAML SSO and audit logs.,0.95
 RPL-0355,ACC-10413,not_now,Says not a priority right now.,0.95
 RPL-0356,ACC-10461,ready_to_buy,Asks Enterprise cost and contract for 23.,0.95
@@ -503,7 +503,7 @@ RPL-0501,ACC-10896,not_now,Out of office; will reply when back.,0.99
 RPL-0502,ACC-10342,not_now,Might look later; not a priority now.,0.98
 RPL-0503,ACC-10654,wrong_contact,Not the right person; IT lead handles purchases.,0.99
 RPL-0504,ACC-10166,evaluating,Asks about importing Confluence without losing history.,0.97
-RPL-0505,ACC-10664,not_interested,Unsubscribe.,0.99
+RPL-0505,ACC-10664,not_interested,Requests removal from the mailing list.,0.99
 RPL-0506,ACC-10607,not_now,Revisit after planning cycle; keep posted.,0.98
 RPL-0507,ACC-10903,evaluating,Asks about EU data residency setup.,0.98
 RPL-0508,ACC-10672,evaluating,Asks whether Business includes SAML SSO and audit logs.,0.98
@@ -517,7 +517,7 @@ RPL-0515,ACC-11075,not_now,Revisit after planning cycle; keep posted.,0.98
 RPL-0516,ACC-10584,not_interested,Consolidating on Microsoft Loop; no follow-up.,0.99
 RPL-0517,ACC-10681,wrong_contact,Intern can't decide; try office manager.,0.99
 RPL-0518,ACC-11181,ready_to_buy,Asks volume discount above 59 seats; comparing quote.,0.82
-RPL-0519,ACC-10902,not_interested,Unsubscribe.,0.99
+RPL-0519,ACC-10902,not_interested,Requests removal from the mailing list.,0.99
 RPL-0520,ACC-10583,wrong_contact,Intern can't decide; try office manager.,0.99
 RPL-0521,ACC-10283,wrong_contact,Mailbox unmonitored; directs to front desk.,0.6
 RPL-0522,ACC-10641,wrong_contact,Says wrong person; procurement decides.,1.0
@@ -569,7 +569,7 @@ RPL-0567,ACC-11038,not_interested,Says they don't plan to pay and asks to stop e
 RPL-0568,ACC-10469,wrong_contact,Says they're not the right person; IT lead handles purchases.,0.95
 RPL-0569,ACC-10930,evaluating,Asks how permissions work across teamspaces; security will ask.,0.95
 RPL-0570,ACC-10943,not_now,Says they could revisit after their planning cycle.,0.95
-RPL-0571,ACC-10349,not_interested,Says unsubscribe.,0.95
+RPL-0571,ACC-10349,not_interested,Requests removal from the mailing list.,0.95
 RPL-0572,ACC-11061,evaluating,Asks about importing Confluence spaces without losing page history.,0.95
 RPL-0573,ACC-10706,not_now,Says not this quarter; free plan works for now.,0.95
 RPL-0574,ACC-10995,wrong_contact,Says they're an intern and suggests trying the office manager.,0.95
@@ -599,7 +599,7 @@ RPL-0597,ACC-10118,ready_to_buy,Has a quote and asks for a volume discount on 11
 RPL-0598,ACC-10493,not_now,"Might look later, not a priority now.",0.9
 RPL-0599,ACC-10964,not_now,Not this quarter; free plan works now.,0.9
 RPL-0600,ACC-10802,not_now,"Might look later, not a priority now.",0.9
-RPL-0601,ACC-10146,not_interested,Says unsubscribe.,0.95
+RPL-0601,ACC-10146,not_interested,Requests removal from the mailing list.,0.95
 RPL-0602,ACC-10640,not_now,Mid-reorg; maybe in a few months.,0.85
 RPL-0603,ACC-10420,not_now,"Love product, happy on free for now.",0.9
 RPL-0604,ACC-10937,ready_to_buy,Ready to move team; asks Enterprise cost and contract.,0.95
@@ -624,7 +624,7 @@ RPL-0622,ACC-10965,not_now,"Out of office, limited email, will reply later.",0.9
 RPL-0623,ACC-10847,evaluating,Asks if SAML SSO is Business or Enterprise.,0.97
 RPL-0624,ACC-10156,ready_to_buy,"Requests pricing for 39 seats, annual billing.",0.99
 RPL-0625,ACC-10177,not_interested,"Already signed with Confluence, all set.",0.98
-RPL-0626,ACC-10688,not_interested,"Not interested, thanks.",0.99
+RPL-0626,ACC-10688,not_interested,Politely declines the offer.,0.99
 RPL-0627,ACC-10127,ready_to_buy,Asks process to upgrade 55 users and get SSO.,0.96
 RPL-0628,ACC-10583,not_now,"Not this quarter, free plan works now.",0.96
 RPL-0629,ACC-10652,not_interested,"Doesn't plan to pay, stop emailing.",0.99
@@ -632,7 +632,7 @@ RPL-0630,ACC-11032,not_interested,"Already signed with Confluence, all set.",0.9
 RPL-0631,ACC-10056,not_now,Happy on free plan for now.,0.95
 RPL-0632,ACC-10151,not_interested,"Already signed with Confluence, all set.",0.98
 RPL-0633,ACC-10429,not_now,"Out of office, limited email, will reply later.",0.98
-RPL-0634,ACC-10764,not_interested,"Not interested, thanks.",0.99
+RPL-0634,ACC-10764,not_interested,Politely declines the offer.,0.99
 RPL-0635,ACC-10523,not_now,"Budgets frozen, check back Q1.",0.95
 RPL-0636,ACC-10488,not_interested,"Already signed with Confluence, all set.",0.98
 RPL-0637,ACC-10071,evaluating,Asks if Notion syncs with Jira and Slack.,0.96
@@ -731,7 +731,7 @@ RPL-0729,ACC-11180,not_now,Might look later; not priority now.,0.95
 RPL-0730,ACC-10695,not_interested,Won't pay for docs tool; stop emailing.,1.0
 RPL-0731,ACC-10932,not_interested,Consolidating on Microsoft Loop; no follow-up.,0.98
 RPL-0732,ACC-10898,not_now,Mid-reorg; maybe in a few months.,0.97
-RPL-0733,ACC-10155,not_interested,Unsubscribe.,0.99
+RPL-0733,ACC-10155,not_interested,Requests removal from the mailing list.,0.99
 RPL-0734,ACC-10443,not_now,Budgets frozen until next year; check Q1.,0.97
 RPL-0735,ACC-10500,not_now,Mid-reorg; maybe in a few months.,0.97
 RPL-0736,ACC-10370,evaluating,Asks how permissions work; security will ask.,0.96
@@ -748,7 +748,7 @@ RPL-0746,ACC-10108,wrong_contact,"Forwarding to head of engineering, tooling own
 RPL-0747,ACC-10431,not_now,Not this quarter; free plan works now.,0.97
 RPL-0748,ACC-10208,not_now,Not this quarter; free plan works now.,0.97
 RPL-0749,ACC-10092,not_now,Budgets frozen until next year; check Q1.,0.97
-RPL-0750,ACC-10592,not_interested,Unsubscribe.,0.99
+RPL-0750,ACC-10592,not_interested,Requests removal from the mailing list.,0.99
 RPL-0751,ACC-10177,not_interested,Requests removal from list.,0.99
 RPL-0752,ACC-10482,not_now,Revisit after planning cycle.,0.96
 RPL-0753,ACC-11034,wrong_contact,Uses it personally; talk to ops manager.,0.97
