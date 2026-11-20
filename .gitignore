@@ -1,0 +1,7 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+.runs/
+Q3 2026 Flagged Free Workspaces with Conversion Outcomes.csv
+Q3 2026 Outbound Email Reply Export.csv
